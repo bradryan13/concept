@@ -8,3 +8,48 @@ Version:	1.0.0
 2. Logo
 3. Nav
 4. Social
+
+/* 1. Base --------------------------------------------------------*/
+
+@navheight: 55px;
+
+header {
+	height: @navheight;
+	background: linear-gradient(to bottom,#002944 0%,#002236 100%);
+}
+
+/* 2. Logo --------------------------------------------------------*/
+
+h1 {
+	margin: 0;
+	img {
+		width: 220px;
+		height: 40px;
+		margin-top: 7px;
+	}
+}
+
+
+/* 3. Nav ---------------------------------------------------------*/
+
+nav {
+	ul {
+		list-style: none;
+		margin: 0;
+		li {
+			padding: 0;
+			float: left;
+			a {
+				display: block;
+				font-size: 13px;
+				color: #FFF;
+				text-decoration: none;
+				height: 100%;
+				line-height: @navheight;
+				padding: 0 15px;
+				border-right: 1px solid #002236;
+				border-left: 1px solid #002E49;
+			}
+		}
+	}
+}

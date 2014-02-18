@@ -1,0 +1,97 @@
+/*------------------------------------------------------------------
+[Main Stylesheet]
+
+Project:	MLS Golazo Concept
+Version:	1.0.0
+
+1. Imports
+2. Typography
+3. Utilities
+4. Layout
+
+--------------------------------------------------------------------*/
+/* 1. Imports ------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Header Stylesheet]
+
+Project:	MLS Golazo Concept
+Version:	1.0.0
+
+1. Base
+2. Logo
+3. Nav
+4. Social
+
+/* 1. Base --------------------------------------------------------*/
+header {
+  height: 55px;
+  background: linear-gradient(to bottom, #002944 0%, #002236 100%);
+}
+/* 2. Logo --------------------------------------------------------*/
+h1 {
+  margin: 0;
+}
+h1 img {
+  width: 220px;
+  height: 40px;
+  margin-top: 7px;
+}
+/* 3. Nav ---------------------------------------------------------*/
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  padding: 0;
+  float: left;
+}
+nav ul li a {
+  display: block;
+  font-size: 13px;
+  color: #FFF;
+  text-decoration: none;
+  height: 100%;
+  line-height: 55px;
+  padding: 0 15px;
+  border-right: 1px solid #002236;
+  border-left: 1px solid #002E49;
+}
+/*------------------------------------------------------------------
+[Main Stylesheet]
+
+Project:	MLS Golazo Concept
+Version:	1.0.0
+
+1. Imports
+2. Typography
+3. Utilities
+4. Layout
+
+--------------------------------------------------------------------*/
+#hero {
+  background: url('../img/hero-bg.jpg') center top no-repeat;
+}
+#hero .row {
+  padding: 20px 0;
+}
+#hero .row #left-feature {
+  padding-left: 0;
+  padding-right: 0;
+}
+#hero .row #left-feature img {
+  float: left;
+}
+#hero .row #right-feature {
+  padding-right: 0;
+}
+#hero .row #right-feature img {
+  float: right;
+  margin-bottom: 20px;
+}
+/* 4. Layout -------------------------------------------------------*/
+#page {
+  margin: 0 auto;
+  max-width: 1600px;
+  background: #F1F1F1;
+  min-height: 1200px;
+}
